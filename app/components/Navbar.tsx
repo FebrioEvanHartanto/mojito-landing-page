@@ -14,7 +14,7 @@ const Navbar = () => {
             }
         });
 
-        navTween.fromTo("nav", {backgroundColor: "transparent"}, {backgroundColor:"#00000050", backgroundFilter: "blur(10px)", duration:1, ease:"power1.inOut"});
+        navTween.fromTo("nav", {backgroundColor: "transparent"}, {backgroundColor:"#00000050", backdropFilter: "blur(10px)", duration:1, ease:"power1.inOut"});
 
     })
 
@@ -22,7 +22,7 @@ const Navbar = () => {
         <nav className="flex justify-between items-center px-20">
 
             <div>
-                <Image src="/images/concota-logo-white.png" width={250} height={200} alt="Concota Logo" priority/>
+                <Image src="/images/concota-logo-white.webp" width={250} height={200} alt="Concota Logo" priority/>
             </div>
 
             <div>
