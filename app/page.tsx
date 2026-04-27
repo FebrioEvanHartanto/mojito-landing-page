@@ -6,6 +6,7 @@ gsap.registerPlugin(ScrollTrigger,SplitText);
 import Image from "next/image";
 import Navbar from "@/app/components/Navbar";
 import Hero from "@/app/components/Hero";
+import Cocktails from "@/app/components/Cocktails";
 
 
 export default function Home() {
@@ -13,6 +14,7 @@ export default function Home() {
    <main>
        <Navbar />
        <Hero />
+       <Cocktails />
    </main>
   );
 }
