@@ -1,26 +1,26 @@
-import gsap from 'gsap';
-import { SplitText} from 'gsap/all'
-import { useGSAP } from '@gsap/react'
+import gsap from "gsap";
+import { SplitText} from "gsap/all"
+import { useGSAP } from "@gsap/react"
 import Image from "next/image"
 
 const About = () => {
     useGSAP(() => {
-        const titleSplit = SplitText.create('#about h2', {
-            type: 'words'
+        const titleSplit = SplitText.create("#about h2", {
+            type: "words"
         });
 
-        const textSplit = new SplitText('.about-text', {
-            type: 'lines'
+        const textSplit = new SplitText(".about-text", {
+            type: "lines"
         });
 
-        const statsSplit = new SplitText('.stats p', {
-            type: 'lines'
+        const statsSplit = new SplitText(".stats p", {
+            type: "lines"
         });
 
         const scrollTimeline = gsap.timeline({
             scrollTrigger: {
-                trigger: '#about',
-                start: 'top center',
+                trigger: "#about",
+                start: "top center",
             }
         });
 
