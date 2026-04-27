@@ -3,10 +3,10 @@
 import gsap from 'gsap';
 import {ScrollTrigger, SplitText} from "gsap/all";
 gsap.registerPlugin(ScrollTrigger,SplitText);
-import Image from "next/image";
 import Navbar from "@/app/components/Navbar";
 import Hero from "@/app/components/Hero";
 import Cocktails from "@/app/components/Cocktails";
+import About from "@/app/components/About";
 
 
 export default function Home() {
@@ -15,6 +15,7 @@ export default function Home() {
        <Navbar />
        <Hero />
        <Cocktails />
+       <About />
    </main>
   );
 }

@@ -91,7 +91,7 @@ const Hero = () => {
     return (
         <>
             <section id="hero" ref={heroRef} className="noisy">
-                <h1 className="title">MOJITO</h1>
+                <h1 className="title">CONCOCTA</h1>
 
                 <Image
                     src="/images/hero-left-leaf.png"
@@ -112,7 +112,7 @@ const Hero = () => {
                 <div className="body">
                     <div className="content">
                         <div className="space-y-5 hidden md:block">
-                            <p>Cool. Crisp. Classic.</p>
+                            <p className="subtitle">Cool. Crisp. Classic.</p>
                             <p className="subtitle">
                                 Sip the Spirit
                                 <br />
@@ -126,7 +126,7 @@ const Hero = () => {
                                 creative flair, and timeless recipes — designed to delight your
                                 senses.
                             </p>
-                            <Link href="#cocktails">View Cocktails</Link>
+                            <Link href="#cocktails" className="subtitle text-left">View Cocktails</Link>
                         </div>
                     </div>
                 </div>

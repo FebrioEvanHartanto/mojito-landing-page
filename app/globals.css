@@ -223,7 +223,7 @@ body {
       }
 
       img {
-        @apply object-cover w-full h-full;
+        @apply object-cover;
       }
     }
 
