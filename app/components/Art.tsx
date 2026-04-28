@@ -14,7 +14,7 @@ const Art = () => {
             scrollTrigger: {
                 trigger: "#art",
                 start,
-                end: "bottom center",
+                end: "+=130%",
                 scrub: 1.5,
                 pin: true
             }
@@ -68,7 +68,7 @@ const Art = () => {
                 </div>
 
                 <div className="masked-container">
-                    <h2 className="will-fade">Sip-Worthy Perfection</h2>
+                    <h2 className="will-fade bottom-6">Sip-Worthy Perfection</h2>
                     <div id="masked-content">
                         <h3>Made with Craft, Poured with Passion</h3>
                         <p>This isn’t just a drink. It’s a carefully crafted moment made just for you.</p>

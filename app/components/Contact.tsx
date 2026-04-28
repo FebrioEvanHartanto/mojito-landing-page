@@ -48,13 +48,13 @@ const Contact = () => {
 
                 <div>
                     <h3>Visit Our Bar</h3>
-                    <p>Jalan Tegal Sari No. 27B, Br. Pengosekan Kaja, Ubud, Bali 80571</p>
+                    <p>128 Hay Street, Perth WA 6000, Australia</p>
                 </div>
 
                 <div>
                     <h3>Contact Us</h3>
-                    <p>(0361) 456 8790</p>
-                    <p>contact@concocta.id</p>
+                    <p>(08) 6245 7391</p>
+                    <p>contact@concocta.au</p>
                 </div>
 
                 <div>
