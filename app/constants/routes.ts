@@ -13,7 +13,7 @@ const routes = [
         label: "About Us"
     },
     {
-        url:"#the-art",
+        url:"#art",
         label: "The Art"
     },
     {
