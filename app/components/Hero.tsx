@@ -60,7 +60,7 @@ const Hero = () => {
                 })
                 .to(".right-leaf", { y: 200 }, 0)
                 .to(".left-leaf", { y: -200 }, 0)
-                .to(".arrow", { y: 100 }, 0);
+
 
             const video = videoRef.current;
             if (!video) return;
