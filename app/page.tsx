@@ -8,6 +8,8 @@ import Hero from "@/app/components/Hero";
 import Cocktails from "@/app/components/Cocktails";
 import About from "@/app/components/About";
 import Art from "@/app/components/Art";
+import Menu from "@/app/components/Menu";
+import Contact from "@/app/components/Contact";
 
 
 export default function Home() {
@@ -18,6 +20,8 @@ export default function Home() {
        <Cocktails />
        <About />
        <Art />
+       <Menu />
+       <Contact />
    </main>
   );
 }

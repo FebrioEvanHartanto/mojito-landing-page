@@ -56,7 +56,7 @@ const Art = () => {
                     <ul className="space-y-4 will-fade">
                         {featureLists.map((feature, index) => (
                             <li key={index} className="flex items-center justify-start gap-2">
-                                <Image src="/images/check.png" 
+                                <Image src="/images/check.png"
                                        alt="check"
                                        width={20}
                                        height={20}
